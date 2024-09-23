@@ -11,6 +11,7 @@ import CssBaseline from '@mui/material/CssBaseline'
 
 
 const App = lazy(() => import('./App'))
+const AboutRoute = lazy(() => import('./modules/About/AboutRoute'))
 
 const AppRoutes = (): ReactElement => {
   const materialTheme = materialExtendTheme()
@@ -29,6 +30,7 @@ const AppRoutes = (): ReactElement => {
           />
           <Routes>
             <Route index path='/' element={<App />} />
+            <Route path='/about/*' element={<AboutRoute />} />
           </Routes>
         </CssVarsProvider>
       </MaterialCssVarsProvider>
