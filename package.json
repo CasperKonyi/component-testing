@@ -10,11 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@core/ui": "^1.1.0-PreRelease.90",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@hugeicons/react-pro": "^0.3.2",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/joy": "5.0.0-beta.48",
+    "@mui/material": "^6.1.1",
+    "@mui/x-data-grid-pro": "^7.18.0",
+    "@mui/x-license-pro": "^6.10.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@types/node": "^22.5.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
