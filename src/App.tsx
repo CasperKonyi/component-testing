@@ -7,7 +7,17 @@ const App = () => {
   const theme = useTheme()
   const [count, setCount] = useState(0)
   return (
-    <Page header={<PageHeader title='Dashboard' description='A simple dashboard' icon={DashboardBrowsingIcon} />}>
+    <Page
+      header={
+        <PageHeader
+          title='Dashboard'
+          description='A simple dashboard'
+          icon={DashboardBrowsingIcon}
+          badgeTitle='Main'
+          badgeColor='success'
+        />
+      }
+    >
       <Section
         hasBorder
         title='Section'
@@ -23,8 +33,12 @@ const App = () => {
         </Typography>
         <Section>
           <Stack direction='row' spacing={1}>
-            <Link underline href='/'>Home</Link>
-            <Link underline href='/about'>About</Link>
+            <Link underline href='/'>
+              Home
+            </Link>
+            <Link underline href='/about'>
+              About
+            </Link>
           </Stack>
         </Section>
       </Section>
