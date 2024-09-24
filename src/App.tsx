@@ -39,6 +39,9 @@ const App = () => {
             <Link underline href='/about'>
               About
             </Link>
+            <Link underline href='/todo'>
+              Todo list
+            </Link>
           </Stack>
         </Section>
       </Section>
